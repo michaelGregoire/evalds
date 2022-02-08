@@ -1,0 +1,28 @@
+{
+  "name": "evalds",
+  "version": "1.0.0",
+  "description": "A practice monorepo vue component library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelGregoire/evalds.git"
+  },
+  "author": "Mike Gregoire",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelGregoire/evalds/issues"
+  },
+  "homepage": "https://github.com/michaelGregoire/evalds#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "lerna": "^4.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
